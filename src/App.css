@@ -1,4 +1,59 @@
 .App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-list,
+.past-search-terms {
+  margin-top: 20px;
+}
+
+.user-list ul,
+.past-search-terms ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li,
+.past-search-terms li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.user-list li strong {
+  color: #007bff;
+}
+
+.App {
   text-align: center;
 }
 
